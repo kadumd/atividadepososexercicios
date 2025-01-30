@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1500px;
+    width: 100vw;
+    background-color: rgb(22, 22, 22);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 80%;
+    border-bottom: solid white 1px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 80%;
+}
+
+#perfil{
+    margin-top: 50px;
+}
+
+#nome-do-cara{
+    color: white;
+}
+
+#caracteristicas-dele{
+    font-size: 35px;
+    text-align: center;
+    height: 130px;
+    width: 350px;
+    color: white;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: rgb(22, 22, 22);
+}
+
+#marcas-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+    border: solid rgb(26, 26, 26) 1px;
+    background-color: rgb(26, 26, 26)
+}
+
+.marcas{
+    height: 40px;
+    width: 110px;
+}
+
+#collaborate{
+    display: flex;
+    align-items: end;
+    height: 150px;
+    width: 450px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 80%;
+}
+
+.cards{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(26, 26, 26);
+}
+
+.icones{
+    height: 40px;
+    width: 30px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+h3{
+    color: white;
+    margin-left: 20px;
+}
+
+#texto-um{
+    margin-left: 20px;
+}
+
+#texto-dois{
+    margin-left: 20px;
+}
+
+#texto-tres{
+    margin-left: 20px;
+}
+
+#texto-quatro{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    header{
+        display: none;
+    }
+
+    #caracteristicas-dele{
+        font-size: 30px;
+        text-align: center;
+        height: 130px;
+        width: 300px;
+        color: white;
+    }
+
+    #marcas-div{
+        height: 200px;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .marcas{
+        height: 40px;
+        width: 110px;
+        margin-left: 60px;
+    }
+
+    #collaborate{
+        height: 150px;
+        width: 90%;
+    }
+
+    footer{
+        height: 400px;
+        width: 100%;
+        overflow: scroll;
+    }
+}

@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(242, 247, 250);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 60%;
+    border-bottom: solid gray 1px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+}
+
+a {
+    color: rgb(71, 90, 99);
+    text-decoration: none;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(24, 43, 55);
+}
+
+#logo{
+    display: flex;
+    font-size: 25px;
+    color: rgb(24, 43, 55);
+}
+
+#imagem-logo{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+/* texto ao meio */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 80%;
+}
+
+h1{
+    color: rgb(24, 43, 55);
+    font-size: 75px;
+}
+
+/* parte do cadiado */
+
+#parte-do-cadeado{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20px;
+    width: 200px;
+}
+
+#circulo-pequeno{
+    height: 5px;
+    width: 5px;
+}
+
+#circulo-medio{
+    height: 10px;
+    width: 10px;
+}
+
+#traco{
+    height: 5px;
+    width: 30px;
+}
+
+#cadeado{
+    height: 20px;
+    width: 20px;
+}
+
+/* quadros */
+
+#quadros{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    width: 75%;
+}
+
+#dinheiro{
+    display: flex;
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+#aplicativos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+#comunicacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+#detalhes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h2{
+    color: rgb(71, 90, 99);
+    font-size: 50px;
+}
+
+#grafico{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h3{
+    color: rgb(71, 90, 99);
+    font-size: 25px;
+}
+
+#div{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 60px;
+    background-color: blue;
+    border-radius: 50px;
+}
+
+#bola{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#logos{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 350px;
+}
+
+#spotify{
+    margin-top: 80px;
+    height: 60px;
+    width: 60px;
+}
+
+#uber{
+    margin-top: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+#amazon{
+    margin-top: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+#netflix{
+    margin-top: 80px;
+    height: 60px;
+    width: 60px;
+}
+
+#dowload{
+    height: 70px;
+    width: 140px;
+}
+
+#conversas{
+    height: 200px;
+    width: 250px;
+}
+
+h4{
+    color: rgb(71, 90, 99);
+    height: 40px;
+    width: 200px;
+}
+
+#fora-da-imagem{
+    display: flex;
+}
+
+#proximo{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(24, 43, 55);
+}
+
+p{
+    color: rgb(71, 90, 99);
+}
